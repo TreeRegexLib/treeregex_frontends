@@ -1,0 +1,22 @@
+{
+  "name": "js_to_sexp",
+  "version": "1.0.0",
+  "description": "Turn javascript source files into serialized trees for TreeRegex",
+  "main": "js_to_sexp.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "treeregex",
+    "sexp",
+    "serialized",
+    "tree",
+    "javascript",
+    "parser"
+  ],
+  "author": "Ben Mehne",
+  "license": "ISC",
+  "dependencies": {
+    "esprima": "^4.0.0"
+  }
+}
