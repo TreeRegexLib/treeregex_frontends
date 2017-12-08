@@ -6,7 +6,7 @@ Each folder contains a frontend to change source code into a serialized tree.  T
 
 To run a frontend on a file, specify the filename on the command line, e.g.:
 
-  $ python cpp_to_sexp.py test.cpp
+    $ python cpp_to_sexp.py test.cpp
  
  Will run the C++ to serailized tree converter on the `test.cpp` file and create a file named `test.cpp.sexp` with the serailized tree in it.  Flags to the frontend, if they are supported, can be given before or after the input file name.
 
