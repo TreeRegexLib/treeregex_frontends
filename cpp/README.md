@@ -9,4 +9,4 @@ It supports the following flags:
 	`-t` which does token-level subtrees (instead of just grammar level subtrees)
 	`--language=*lang*` which treats the source file as *lang* language (supported: c++, c, objective-c).
 
-NOTE: objective-c will probably require a change to the include paths in the source file (it has different install paths on different machines)
+NOTE: This frontend assumes that all header files necessary for compilation are in standard paths.  These paths are in the `INCLUDES` variable in `cpp_to_sexp.py` for different languages.  If you need a different path, specify it there.  objective-c will probably require a change to the include paths in the source file (it has different install paths on different machines).
